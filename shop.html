@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picturefraim Creatives - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.jpg" alt="Logo">
+            <span class="logo-text">Picturefraim Creatives</span>
+        </div>
+        <nav class="header-menu">
+            <a href="mission-vision.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-banner">
+            <h1>Shop Our Merchandise</h1>
+            <p>Show your support with Picturefraim Creatives' exclusive T-shirt design!</p>
+        </section>
+
+        <section class="product">
+            <div class="glass-box">
+                <div class="product-image">
+                    <img src="merch.jpg" alt="Picturefraim Creatives T-shirt" />
+                </div>
+                <div class="product-details">
+                    <h2>Picturefraim Creatives T-shirt</h2>
+                    <p class="product-description">
+                        Our Picturefraim Creatives T-shirt is made from high-quality cotton and features a bold, stylish design. Perfect for casual wear or as a gift for a creative friend!
+                    </p>
+                    <p class="product-price">₱300.00</p>
+
+                    <form action="cart.html" method="POST">
+                        <label for="size">Size:</label>
+                        <select name="size" id="size">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="x-large">X-Large</option>
+                        </select>
+                        <br>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+                        <br>
+                        <button type="submit" class="cta-button">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="model-gallery">
+            <h2>Our Models Wearing Picturefraim Creatives Merchandise</h2>
+            <div class="model-photos">
+                <div class="model-photo">
+                    <img src="model1.jpg" alt="Model 1" />
+                </div>
+                <div class="model-photo">
+                    <img src="model2.jpg" alt="Model 2" />
+                </div>
+                <div class="model-photo">
+                    <img src="model3.jpg" alt="Model 3" />
+                </div>
+                <div class="model-photo">
+                    <img src="model4.jpg" alt="Model 4" />
+                </div>
+                <div class="model-photo">
+                <img src="model5.jpg" alt="Model 4" />
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Picturefraim Creatives | Manila, Philippines</p>
+    </footer>
+</body>
+</html>

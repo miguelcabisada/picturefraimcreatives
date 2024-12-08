@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-image: url('black_gradient_orange_background_by_mannyt1013_deyc445.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+header .logo-text {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Futura', sans-serif; 
+}
+
+header .header-menu {
+    display: flex;
+    gap: 20px;
+}
+
+header .header-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+.services {
+    border-bottom: 2px solid #000000; 
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Futura', sans-serif; 
+    color: #000000;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    overflow-x: hidden; 
+}
+
+.hero {
+    position: relative;
+    width: 100%; 
+    height: 80vh; 
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    margin-left: 0; 
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff5C00;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Futura', sans-serif; 
+}
+
+.hero-text p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal; 
+    text-transform: uppercase; 
+    font-size: 3rem; 
+    text-align: center;
+    color: #ff5C00; 
+    letter-spacing: 4px; 
+}
+
+.services {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 60px;
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.services h2 {
+    font-family: 'Futura', sans-serif; 
+    font-size: 48px; 
+    font-weight: bold; 
+    color: #000000; 
+    margin-bottom: 40px; 
+    text-align: center; 
+}
+
+.service-cards {
+    display: flex;
+    gap: 30px; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%;
+}
+
+.service-card a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.service-card a:hover {
+    text-decoration: underline;
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.service-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px; 
+}
+
+.service-card h3 {
+    font-family: 'Futura', sans-serif; 
+    font-size: 24px;
+    color: #000000; 
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    color: #000000; 
+    line-height: 1.6;
+    margin-bottom: 20px; 
+}
+
+.service-card .cta-button {
+    background-color: #ff5C00;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: rgba(255, 92, 0, 0.2); 
+    color: #ffffff; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #ff5C00; 
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 92, 0, 0.4); 
+    color: white; 
+    transform: translateY(-2px); 
+}
+
+.marketing-materials {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.feedback {
+    padding: 60px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 60px;
+}
+
+.feedback-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background: #ffffff80; 
+    backdrop-filter: blur(10px); 
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feedback h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.feedback-item {
+    background: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(15px); 
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.client-details h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.client-details p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.feedback-text {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.portfolio {
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+ 
+.portfolio-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    padding: 20px; 
+}
+
+.photo-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.photo-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 15px; 
+    padding: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.product-image img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    border-radius: 15px; 
+    object-fit: contain; 
+}
+
+.product-details {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.product-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5C00;
+    margin-bottom: 20px;
+}
+
+button.cta-button {
+    background-color: #ff5C00;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.cta-button:hover {
+    background-color: rgba(255, 92, 0, 0.8);
+}
+
+.product form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product form select, .product form input {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shop-banner {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    backdrop-filter: blur(5px);
+    margin-bottom: 40px;
+}
+
+.shop-banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.shop-banner p {
+    font-size: 18px;
+}
+
+.shop-banner h1, .shop-banner p {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 15px; 
+    padding: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.product-image img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    border-radius: 15px; 
+    object-fit: contain; 
+}
+
+.product-details {
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.product-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5C00;
+    margin-bottom: 20px;
+}
+
+button.cta-button {
+    background-color: #ff5C00;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.cta-button:hover {
+    background-color: rgba(255, 92, 0, 0.8);
+}
+
+.product form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product form select, .product form input {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shop-banner {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fbe5e580; 
+    color: white;
+    backdrop-filter: blur(5px);
+    margin-bottom: 40px;
+}
+
+.shop-banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.shop-banner p {
+    font-size: 18px;
+}
+
+
+.model-gallery {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fbe5e580; 
+    color: white;
+    backdrop-filter: blur(5px);
+    margin-bottom: 40px;
+}
+
+.model-gallery h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.model-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.model-photo {
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.model-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
